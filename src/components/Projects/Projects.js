@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="WEATHER-MATE"
+              description="Weather-Mate features an intuitive and user-friendly interface that allows users to quickly access the information they need. The app also includes a map feature, which displays the current weather conditions for different locations, making it easy to plan trips or check weather conditions in other parts of the world."
+              ghLink="https://github.com/Aniket1118/Weather-App"
+              demoLink="https://loquacious-churros-22f90d.netlify.app"
             />
           </Col>
 
@@ -36,10 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="E-COMMERCE"
+              description="I developed an ecommerce app using React that allowed users to browse and purchase products online. The app featured a responsive and user-friendly interface built with React components and Material UI, and integrated with a backend API to fetch and display product data, manage user accounts, and process payments."
+              ghLink="https://github.com/Aniket1118/ecom-App"
+              demoLink="https://gleeful-starlight-18ebed.netlify.app/"
             />
           </Col>
 
@@ -47,14 +47,14 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="nOTES-APP"
+              description="The React Notes App is a web application that allows users to create, read, update, and delete notes. The app will use a backend API to store and retrieve notes data. The app will have a clean and intuitive user interface built with React. Users will be able to easily navigate the app and perform all the CRUD operations on the notes.The app will be styled using Materialize CSS framework. The styling will be consistent and aesthetically pleasing. The app is tested using Jest and Enzyme to ensure that all features are working as expected."
+              ghLink="https://github.com/Aniket1118/notesApp-BeZen"
+              demoLink="https://lighthearted-kashata-130080.netlify.app/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -71,8 +71,8 @@ function Projects() {
               isBlog={false}
               title="Ai For Social Good"
               description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good" */}
+            {/* // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
@@ -84,9 +84,9 @@ function Projects() {
               description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
